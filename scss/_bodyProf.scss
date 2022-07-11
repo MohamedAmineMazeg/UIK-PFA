@@ -1,0 +1,24 @@
+.uik_number{
+  background:url("../../img/numbers.jpg") rgba($secondary,0.6);
+  background-blend-mode: multiply;
+  background-size:cover;
+  background-position:bottom -40px right 0;
+ 
+}
+.num-desc{
+font-size:2rem;
+font-weight:600;
+}
+.crd5{
+  border-radius: 5%;
+  border: none;
+  overflow: hidden;
+ 
+}
+.crd5:hover{
+  -webkit-box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+}
+.cont-index{
+  background-color:#F4F6FA;
+}

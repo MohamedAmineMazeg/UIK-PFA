@@ -1,0 +1,41 @@
+$primary : #0F41AB;
+$secondary : #4583F2;
+$link-color : white;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import 'nav';
+@import 'hero';
+@import 'body';
+@import 'act';
+@import 'faq';
+@import 'categ';
+@import 'admin';
+@import 'footer';
+@import 'profilProf';
+@import 'login';
+@import 'bodyProf';
+body{
+  font-family: 'IBM Plex Sans';
+  background-color:#F4F6FA;
+}
+$tersiary : #ffae4b;
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+a{
+  text-decoration: none;
+  color:white;
+  font-size:1rem;
+  &:hover{
+    color:white;
+  }
+   
+}
+ul{
+  list-style: none;
+}
+@mixin transition{
+  transition : all 0.5s ease-in;
+}

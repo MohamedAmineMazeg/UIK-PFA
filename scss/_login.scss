@@ -1,0 +1,40 @@
+.bg{
+  background-image:url("../../img/login.jpg");
+  background-size:cover;
+  height:100vh;
+}
+.bienvenue{
+  margin-bottom:5rem;
+}
+.donnee{
+  margin-bottom:4rem;
+}
+.form-text{
+  background:transparent;
+  border-bottom:1px solid lightgray;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  border-radius: 0;
+}
+.form-text::placeholder{
+  color:white;
+  font-weight:300;
+  font-size:1.3rem;
+}
+.login-form{
+  position:absolute;
+ top:10%;
+ background:rgba(19, 19, 19, 0.8);
+ border-radius:5%;
+ border:transparent;
+}
+.btn-login{
+  color:#ffae4b;
+  border:#ffae4b 1px solid;
+  border-radius: 0.8rem;
+}
+.btn-login:hover{
+  color:white;
+  background-color:#ffae4b;
+}

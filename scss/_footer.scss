@@ -1,0 +1,28 @@
+.footer{
+  background-color:$primary;
+}
+.fhead{
+  position:relative;
+}
+.fhead::after{
+  content: "";
+  background: white;
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  bottom:0;
+  height: 2%;
+  width: 58%;
+}
+.socials{
+  font-size:2rem;
+  padding:0.8rem;
+  position:relative;
+  right:-6.5%;
+}
+.logo{
+  position:relative;
+  left:20%;
+}

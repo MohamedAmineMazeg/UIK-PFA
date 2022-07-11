@@ -1,0 +1,344 @@
+
+  .Nact{
+    display:none;
+  } 
+.cont-index{
+   background-color:#F4F6FA;
+}
+
+
+.categ_menu{
+    justify-content:center;
+    text-align: center;
+    padding-bottom:35px;
+ 
+     .categ_menu_cat{
+        display:flex;
+        justify-content:center;
+        text-align:center;
+        li{
+          span{
+          color:$primary;
+          margin:20px;
+          text-align:center;
+          cursor: pointer;
+        }
+        
+        .act1{
+          visibility:visible;
+          color:rgb(255,174,75);
+        }
+        .act2{
+          color:black;
+        
+        }
+        
+        span:hover{
+          color:rgb(255,174,75);
+        }
+      }
+      }
+      
+     
+    }
+   
+    .card_wrap{
+      justify-content: center;
+      text-align: center;
+      padding-bottom:48px;
+    }
+    
+   
+    .d_card{
+     overflow: hidden;
+     margin:20px;
+    }
+     .categ_menu_item{
+  justify-content: center;
+  text-align: center;
+  display:flex;
+  overflow:hidden;
+  border-radius: 5%;
+  flex-direction: column;
+  width:100%;
+
+
+     }
+     .card_img{
+      width:16rem;
+      border-radius: 10%;
+      overflow: hidden;
+      position:relative;
+      top:12%;
+      left:2%;
+      z-index:1000;
+     }
+     
+    
+     .prof{
+   
+        .back{
+          background-color: rgb(255,174,75);
+          width:100vw;
+         
+        }
+      
+      height:20vw;
+      justify-content: center;
+      text-align: center;
+       .cards{
+       display:flex;
+       flex-direction: column;
+       position:relative;
+       top:-110%;
+       width:100;
+         
+       }
+    .cards2{
+      display:flex;
+      flex-direction: column;
+      background-color: white;
+      
+      border-radius:5%;
+      padding-top:5rem;
+      
+      input{
+      width:50%;
+    }
+  }
+    }
+    .img_banner{
+      width:26rem;
+    }
+    .ban{
+      width:100vw;
+      margin-top:22rem;
+      justify-content:center;
+      text-align: center;
+      .temoignage{
+        text-align: left;
+        justify-content: center;
+        height:100%;
+        margin:auto;
+        .titre{
+         margin-bottom:5rem;
+        }
+        .contenue{
+          width:10vw;
+          word-wrap: break-word 
+        }
+      }
+    }
+    .cont{
+      justify-content: center;
+      text-align: left;
+    }
+
+    .number{
+      font-size:5rem;
+    }
+    .text-tem{
+      line-height: 2rem;
+      font-size:1.2rem;
+      letter-spacing: 1px;
+      z-index: 1;
+    }
+    .text-tem2{
+      line-height: 2rem;
+      font-size:1.5rem;
+      letter-spacing: 1px;
+    }
+    .titre{
+      font-size:1.2rem;
+    }
+    .img-tem{
+      width:37vw;
+      border-radius:10%;
+      position:relative;
+      top:13%;
+      z-index:30000;
+      left:-10%;
+    }
+    .img_habta{
+     overflow:visible;
+    }
+    .crd2{
+      height:30rem;
+    }
+    .contact-card1{
+      background-color:white;
+      border-radius:5%;
+      box-shadow: 20px 20px 20px rgba(0,0,0,.2);
+    }
+    .cnt{
+      margin-bottom:5rem;
+    }
+    .contact-card2{
+      border-radius:5%;
+      box-shadow: 20px 20px 20px rgba(0,0,0,.2);
+      background: url("../../img/smartcity.png"),$primary;
+      background-size:cover;
+      
+        .form_group{
+        padding-bottom:2rem;
+      }
+    }
+    .contact-etud{
+      border-radius:5%;
+      box-shadow: 20px 20px 20px rgba(0,0,0,.2);
+      background: $primary;
+      background-size:cover;
+      
+        .form_group{
+        padding-bottom:2rem;
+      }
+    }
+    .sujet{
+      height:5rem;
+    }
+    .form-in{
+      background-color: transparent;
+      color:white;
+    }
+    
+    .form-in:focus{
+      background-color: $primary;
+      color:white;
+    }
+    .form-in::placeholder{
+      color:white;
+      font-weight:300;
+    }
+    .crd_body2{
+      box-shadow: 20px 20px 20px rgba(0,0,0,.2);
+      border-radius:10%;
+      border:transparent;
+      height:40%;
+    }
+    .crd_body3{
+      box-shadow: 20px 20px 20px rgba(0,0,0,.2);
+      border-radius:2rem;
+      border:transparent;
+      height:40%;
+     
+    }
+    .crd_etd{
+      box-shadow: 20px 20px 20px rgba(0,0,0,.2);
+      border-radius:2rem;
+      border:transparent;
+      height:40%;
+     
+      
+    }
+    .w{
+      height:15rem;
+    }
+    .tem{
+      height:23rem;
+      background:$secondary;
+      transition:ease-in-out;
+    }
+    .crd4{
+      border-radius: 5%;
+      border: transparent;
+      }
+    .crd4:hover{
+      box-shadow: 20px 20px 20px rgba(0,0,0,.2);
+    }
+    .bj{
+      height: 25rem;
+      background-color: $secondary;
+      z-index:-1;
+      position:absolute;
+
+    }
+    .crd{
+      border-radius:7%;
+      box-shadow: 20px 20px 20px rgba(0,0,0,.2);
+    }
+    .profs{
+      background:url("../../img/profss.jpg") rgba(69,131,242,0.8);
+      background-size:cover;
+      background-blend-mode: multiply;
+    
+    }
+    .profNom{
+      position:relative;
+      right:-15%;
+      margin:0;
+    }
+    .textProf{
+      line-height: 2rem;
+      font-size:1.2rem;
+      letter-spacing: 1px;
+      z-index: 1;
+      position:relative;
+      left:13%;
+      padding: 5rem 0 5rem 0;
+      font-weight:600;
+
+    }
+    .contact{
+      margin-bottom:10rem;
+    }
+    .cta2{
+      border:3px solid $secondary;
+      width:10rem;
+      border-radius: 1rem;
+      }
+      .newletter{
+        background-color:#EEEEEE;
+      }
+      .btn-news{
+        background-color:#ffae4b;
+      }
+      .prof_crd{
+        background-color: white;
+        border-radius:2rem;
+        box-shadow:20px 20px 20px rgba(0,0,0,.2);
+        border:transparent;
+      }
+      .img_prof{
+        border-radius:2rem;
+      }
+
+      .margin-left{
+        margin-left: 150px;
+      }
+
+
+
+      .filtres::before{
+          position:absolute;
+          left:0;
+          border-radius : 2rem 2rem 0 0;
+          width: 100%;
+          height: 1.5rem;
+          content:'';
+          background : $secondary;
+      }
+      .filtres{
+        
+        position:relative;
+        padding : 15px;
+        
+        box-shadow:20px 20px 20px rgba(0,0,0,.2);
+        border-radius: 2rem;
+        border : transparent;
+      }
+
+
+
+      .card{
+        border-radius: 2rem;
+        box-shadow:20px 20px 20px rgba(0,0,0,.2);
+        .list-image{
+          box-shadow:0 20px 20px rgba(0,0,0,.2);
+        }
+        .name-blue{
+          color:$secondary;
+        }
+      }
+      .hero_img{
+        background: url("../img/cours_hero.jpg"),$primary;
+      }
